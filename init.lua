@@ -10,6 +10,6 @@ local files = {
 }
 
 --- file imports
-for i, n in ipairs(files) do
+for _, n in ipairs(files) do
 	require(prefix .. n)
 end
